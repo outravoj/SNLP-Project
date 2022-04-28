@@ -1,6 +1,9 @@
 # SNLP-Project
 This is a natural language processing project created for Aalto course SNLP. All the code was developed in Google Colab and this repository serves a storage for the final version of the project.
 
+## Dataset 
+Our dataset used tot rain our models was the kaggle dataset https://www.kaggle.com/c/quora-question-pairs. This model consists of question pairs along with label that indicates whether the questions are duplicates of each other. The dataset is saved in data/train.csv.
+
 ## Files
 In this section I will comment on purpose of each file in this repository
 * Exploratory data analysis.ipynb - Exploration of given dataset.
@@ -16,3 +19,6 @@ In this section I will comment on purpose of each file in this repository
 * LSH/best_model_state.bin - Best trained SELECTRA model
 * LSH/lsh_model.pickle - Saved LSH model for querying
 * LSH/sentences_dict.json - The indexed sentences from Gather_save_sentences.ipynb
+
+## Running the code
+If you want try out the trained LSH model with the best SELECTRA, you can download this folder but you have to change the paths present in the file. As this project was done in Google Colab, you have to change the path in the following manner. For every path, which consists of: '/content/gdrive/MyDrive/Colab Notebooks/SNLP projekt', you have to change just the path preceding 'SNLP projekt'.
