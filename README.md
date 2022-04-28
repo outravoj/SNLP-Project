@@ -1,5 +1,5 @@
 # SNLP-Project
-This is a natural language processing project created for Aalto course SNLP. All the code was developed in Google Colab and this repository serves a storage for the final version of the project.
+This is a natural language processing project created for Aalto course SNLP. All the code was developed in Google Colab and this repository serves a storage for the final version of the project. This project consists of handling Quora question pairs dataset, firstly training a model just for recognizing if a pair of sentences are duplicates and then better models, which can then be used to find the most similar question from the dataset.
 
 ## Dataset 
 Our dataset used tot rain our models was the kaggle dataset https://www.kaggle.com/c/quora-question-pairs. This model consists of question pairs along with label that indicates whether the questions are duplicates of each other. The dataset is saved in data/train.csv.
